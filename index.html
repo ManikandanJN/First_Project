@@ -1,0 +1,412 @@
+<html>
+<title>Home</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+display: block; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+.active {
+  background-color: orange;
+}
+
+
+.h1{
+height:80px;
+font-size: 50px;
+padding:20px;
+position:relative;
+}
+span{
+color:orange;
+}
+p{
+margin:15px 10px;
+font-family: "sans-reguler",sans-serif;
+    color: #787878;
+    font-size: 16px;
+	text-align:center;
+	padding:20px;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+}
+
+@media (min-width:600px){
+.h1{
+	height:80px;
+font-size: 80px;
+padding:20px;
+	}
+.p{
+	font-size: 20px;
+	text-align:center;
+	}
+}
+.button {
+  display: inline-block;
+  padding: 15px 45px;
+  margin:15px 30px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3d349d;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #3d349d;
+}
+
+.button2:hover {
+  background-color: #3d349d;
+  color: white;
+}
+
+
+
+/* cards start */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  
+  padding: 3px;
+  text-align: center;
+
+}
+.img1{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.p1 {
+    margin: 2px 9px;
+	
+    font-family: "sans-bold",sans-serif;
+	font-size: 28px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+}
+.p2 {
+    margin: 1px 4px;
+    font-family: "sans-reguler",sans-serif;
+    color: #787878;
+    font-size: 16px;
+    text-align: center;
+    padding: -10px;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+}
+/* cards end */
+
+/* cards start */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card2 {
+	display:none;
+	}
+}
+@media screen and (min-width: 600px) {
+  .h1 {
+    font-size: 40px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  padding: 3px;
+  text-align: center;
+}
+.h1{
+height:80px;
+font-size: 40px;
+padding:20px;
+position:relative;
+}
+span{
+color:orange;
+}
+
+
+
+/* footer start */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.footer {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.footerRow {
+	margin: 0 100px;
+	background-color:#1c1659;
+	border-radius:25px;
+	float:left;
+	width:80%;
+	margin-left:40px;
+	}
+
+/* Clear floats after the columns */
+.footerRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.col {
+  
+  padding: 3px;
+  text-align: center;
+
+}
+.img1{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.col1 {
+    margin: -16px 9px;
+	
+    font-family: "sans-bold",sans-serif;
+	font-size: 28px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+}
+.col2 {
+    margin: -21px 4px;
+    font-family: "sans-reguler",sans-serif;
+    color: White;
+    font-size: 16px;
+    text-align: center;
+    padding: -10px;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+}
+.col3 {
+    margin: 100px 4px;
+    font-family: "sans-reguler",sans-serif;
+    color: White;
+    font-size: 16px;
+    text-align: center;
+    padding: -10px;
+    letter-spacing: .03em;
+    line-height: 1.7em;
+}
+/* footer end */
+
+</style>
+</head>
+<body>
+<ul> 
+  <li><a href="#about">Contact</a></li>
+   <li><a href="work.html">Work</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class="active"  href="#home">Home</a></li>
+</ul>
+
+<div class="row1" style="margin-top:100px;">
+  <div class="column1">
+    <div class="card1">
+       <h1 class="h1">Maximize your business with <span>us</span></h1>
+<p>Maximize your business with a variety of services and services from us
+</p>
+<button class="button">Contact Us</button>
+<button class="button button2">Contact Us</button>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card2">
+      <img src="images/Group 17.png " class="wow slideInDown" data-wow-delay="0.4s" alt="" style="visibility: visible;float:left;">
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="images/Mask Group.png" alt="Mountains" class="img1" style="width:200px;background-color:#3d349d !important;border-radius: 25px;">
+      <p class="p1"><b>Sarah Jae</b></p>
+      <p class="p2">Branding Specialist</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/Mask Group1.png" alt="Mountains" class="img1" style="width:220px;background-color:#c63973 !important;border-radius: 25px;">
+      <p class="p1"><b>John Doe</b></p>
+      <p class="p2">Product Designer</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/Mask Group2.png" alt="Mountains" class="img1" style="width:170px;background-color:#f5ab67 !important;border-radius: 25px;">
+      <p class="p1"><b>Samantha</b></p>
+      <p class="p2">SEO Specialist</p>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- footer -->
+<div class="footerRow">
+<div class="footer">
+    <div class="col">
+	  <p class="col1"><b>Oracle</b></p>
+      <p class="col3" style="color:#787878">Fetux Creative Lab - All Right Reserved</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="col">
+      <p class="col1"><b>ABOUT</b></p>
+	  <hr style="width:10%;border-color:orange;">
+      <p class="col2">About</p>
+	  <p class="col2">What We do</p>
+	  <p class="col2">Works</p>
+	  <p class="col2">Testimonial</p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="col">
+      <p class="col1"><b>FOLLOW US</b></p>
+	  <hr style="width:10%;border-color:orange;">
+      <p class="col2">Dribbble</p>
+	  <p class="col2">Instagram</p>
+	  <p class="col2">Behance</p>
+	  <p class="col2">Pinterest</p>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
